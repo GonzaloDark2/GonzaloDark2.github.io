@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="stylesheet" href="/estilos.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+    <title>Portafolio</title>
+</head>
+<body>
+    <!--MENU ENCABEZADO-->
+    <DIV class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">GONZALO</a>
+            </div>
+                <nav id="nav">
+                    <ul>
+                        <li> <a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                        <li> <a href="#sobremi" onclick="seleccionar()">SOBREMI</a></li>
+                        <li> <a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                        <li> <a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                    </ul>
+                </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </DIV>
+    <div class="header">...</div>
+    <!--SECCION INICIO-->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+                <div class="contenedor-imagen">
+                    <img src="/img/imagen.jpg" alt="">
+                </div>
+                    <h1>GONZALO RAMOS</h1>
+                    <H2>CONOCIMIENTO BASICO:</H2><span>"HTML, CSS y JS"</span>
+                <div class="redes">
+                    <a href="#"><i class="fa-brands fa-facebook"></i> </a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i> </a>
+                </div>
+        </div>
+    </section>
+    <!--SOBRE MI-->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mi</h2> 
+            <p><span>Hola, soy Gonzalo Ramos.</span> Tengo 30 años, estoy por cursar la carrera "Analista de Sistemas" en el instituto HILET, ubicado en la ciudad de Mar del Plata. En el 2022 comencé un curso de Programación WEB pero por razones laborales no lo terminé. Espero ahora finalizar mis estudios y poder cumplir mis sueños y trabajar como Programador. </p>
+            <div class="fila">
+                <!--DATOS PERSONALES-->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños: </strong>
+                            28-12-1992
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <strong>Telefono: </strong>
+                            223-5 520696
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <strong>Email: </strong> 
+                            gonzalodarkangel2@gmail.com
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <strong>Direccion: </strong>
+                            General Pueyrredon, Mar del Plata.
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <strong>Cargo: </strong> 
+                            <span>TRAINEE / JUNIOR</span>
+                        </li>
+                    </ul>
+                    <button>
+                         <a href="/modelo de prueba.pdf" target="_blank">Descargar CV</a>
+                        <i class="fa-solid fa-download"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <!--INTERESES-->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                            <div class="interes"><i class="fa-solid fa-gamepad"></i>
+                                <span>JUEGOS</span>
+                            </div>
+                            <div class="interes"><i class="fa-solid fa-headphones"></i>
+                                <span>MUSICA</span>
+                            </div>
+                        <div class="interes"><i class="fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </div> 
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--SECCION SKILLS-->
+    <section id="skills" class="skills">
+        <div class="contenido-seccion">
+            <h2>SKILLS</h2>
+            <div class="fila">
+                <!--TECHNICAL SKILLS-->
+                <div class="col">
+                    <h3>Techical Skills</h3>
+                        <div class="skill">
+                            <span>JAVASCRIPT</span>
+                                <div class="barra-skill">
+                                    <div class="progreso javascript">
+                                        <span>73%</span>
+                                    </div>
+                                </div>
+                        </div>
+                        <div class="skill">
+                                <span>HTML & CSS</span>
+                            <div class="barra-skill">
+                                    <div class="progreso htmlcss">
+                                            <span>88%</span>
+                                    </div>
+                            </div>
+                        </div>
+                </div>
+                <!--TECHNICAL SKILLS-->
+                <div class="col">
+                <h3> Professional Skills</h3>
+
+                <div class="skill">
+                    <span>COMUNICACIÓN</span>
+                    <div class="barra-skill">
+                        <div class="progreso comunicacion ">
+                            <span>80%</span>
+                        </div>
+                    </div><div class="skill">
+                        <span>TRABAJO EN EQUIPO</span>
+                        <div class="barra-skill">
+                            <div class="progreso trabajoenequipo">
+                                <span>91%</span>
+                            </div>
+                        </div>
+
+            </div>
+        </div>
+    </section>
+    <!--SECCION CONTACTO-->
+    <section id="contacto" class="contacto">
+        <div class="contenido-contacto">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!--FORMULARIO-->
+                <div class="col">
+                    <input type="text" placeholder="Tu Nombre">
+                    <input type="text" placeholder="Número Telefónico">
+                    <input type="text" placeholder="Dirección de correo">
+                    <input type="text" placeholder="Tema">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar Mensaje <i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                  <!--MAPA-->
+                <div class="col">
+                        <img src="/img/mapa-mar-del-plata.png" alt="mapa-mar-del-plata" > 
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Barrio Juramento, Mar del Plata
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Llamanos: 223-5520696 
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: gonzalodarkangel2@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--FOOTER-->
+    <footer>
+        <a href="#inicio" class="arriba">
+        <i class="fa-solid fa-angles-up"></i></a>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-facebook"></i></i> </a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></i> </a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i> </a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
